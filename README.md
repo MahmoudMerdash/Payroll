@@ -1,4 +1,5 @@
 # Payroll
+#Employees Class 
 The Goal of this project is high-level design Not full-implementation
 - There is no menue of option 
 - - it just a practicing on how we got from OOP Course 
@@ -11,3 +12,13 @@ The Goal of this project is high-level design Not full-implementation
 - - Develop the classes (high-level)
 - - Features for each class type you figure out
 - -amount_to_pay property that returns the salary
+#invoice Class 
+- -each invoice has set of items
+- -Each item has description, total quantity and price per item
+- -Invoice price: sum of the items’ prices
+- #payroll:
+ Each payable is either employee or invoice
+ The total paid money is the total paid money for the added employees and invoices
+ 
+ #company Class 
+ It creates several types of payables, add to Payroll and compute total paid money
