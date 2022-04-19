@@ -16,9 +16,9 @@ The Goal of this project is high-level design Not full-implementation
 - -each invoice has set of items
 - -Each item has description, total quantity and price per item
 - -Invoice price: sum of the items’ prices
-- #payroll:
- Each payable is either employee or invoice
- The total paid money is the total paid money for the added employees and invoices
+- #payroll
+ - Each payable is either employee or invoice
+ - The total paid money is the total paid money for the added employees and invoices
  
  #company Class 
  It creates several types of payables, add to Payroll and compute total paid money
